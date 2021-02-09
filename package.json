@@ -2,7 +2,7 @@
   "name": "workout-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://confusionorb221.github.io/workout-tracker-fe-pt",
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.6.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
