@@ -15,7 +15,7 @@ WebFont.load({
 });
 
 ReactDOM.render(
-  <Router basename="https://confusionorb221.github.io/workout-tracker-fe-pt">
+  <Router basename="/workout-tracker-fe-pt">
   <App />
   </Router>,document.getElementById("root"));
 
