@@ -14,7 +14,10 @@ WebFont.load({
   },
 });
 
-ReactDOM.render(<Router><App /></Router>,document.getElementById("root"));
+ReactDOM.render(
+  <Router basename="https://confusionorb221.github.io/workout-tracker-fe-pt">
+  <App />
+  </Router>,document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
