@@ -20,7 +20,7 @@ export default function Comments(props) {
     }, [])
 
     const getCommentCount = async(entity_id) =>{
-        Axios.get(`https://frozen-hamlet-18508.herokuapp.com/api/comments/number/${entity_id}`)
+        Axios.get(`https://workout-tracker-be.herokuapp.com/comments/number/${entity_id}`)
         .then(res =>{
             setCount(res.data.message[0].count);
         })

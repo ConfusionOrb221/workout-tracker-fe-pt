@@ -2,7 +2,7 @@ import axios from 'axios'
 import {axiosWithAuth} from '../../authentication/axiosWithAuth';
 export async function getComments(entity_id){
     let data;
-    await axios.get(`https://frozen-hamlet-18508.herokuapp.com/api/comments/get/${entity_id}`)
+    await axios.get(`https://workout-tracker-be.herokuapp.com/api/comments/get/${entity_id}`)
     .then(response =>{
         data = response;
     })
@@ -15,7 +15,7 @@ export async function getComments(entity_id){
 
 export async function addComment(entity_id){
     let data;
-    await axiosWithAuth().post(`https://frozen-hamlet-18508.herokuapp.com/api/comments/${entity_id}`)
+    await axiosWithAuth().post(`https://workout-tracker-be.herokuapp.com/api/comments/${entity_id}`)
     .then(res =>{
         data = res;
     })

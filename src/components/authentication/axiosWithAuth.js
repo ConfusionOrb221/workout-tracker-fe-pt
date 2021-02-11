@@ -7,6 +7,6 @@ export const axiosWithAuth = () => {
     headers: {
       Authorization: token,
     },
-    baseURL: "https://frozen-hamlet-18508.herokuapp.com",
+    baseURL: "https://workout-tracker-be.herokuapp.com",
   });
 };

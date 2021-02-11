@@ -26,7 +26,7 @@ const Calendar = () => {
 
   const getDates = () => {
     const dates = axiosWithAuth()
-      .get(`https://frozen-hamlet-18508.herokuapp.com/api/workouts`)
+      .get(`https://workout-tracker-be.herokuapp.com/api/workouts`)
       .then((res) => {
         console.log(res);
         const info = [];
@@ -42,7 +42,7 @@ const Calendar = () => {
 
   const getFoodDates = () => {
     const foodDates = axiosWithAuth()
-      .get(`https://frozen-hamlet-18508.herokuapp.com/api/diets`)
+      .get(`https://workout-tracker-be.herokuapp.com/api/diets`)
       .then((res) => {
         console.log(res.data);
         const foodInfo = [];
